@@ -1,0 +1,33 @@
+{
+  "name": "mycontacts-backend-api",
+  "version": "1.0.0",
+  "description": "This is express project for my contacts backend api",
+  "homepage": "https://github.com/nalinikanta123/mycontacts-backend#readme",
+  "bugs": {
+    "url": "https://github.com/nalinikanta123/mycontacts-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nalinikanta123/mycontacts-backend.git"
+  },
+  "license": "ISC",
+  "author": "Nalini",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
